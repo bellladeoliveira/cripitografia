@@ -119,7 +119,7 @@ max-height: 200px;
 
 }
 
-@media (max-width: 770px) {
+@media (max-width: 500px) {
   .corpo-bg {
     width: 100%;
     height: 100%;
