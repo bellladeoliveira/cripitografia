@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+flex-direction: column;
+background-image: url(./img/download.1.jpg);
+
+}
+
+.corpo-bg {
+  max-width: 950px;
+  margin: 30px;
+  /*background: rgba(52, 51, 65, 0.5);*/
+  padding: 30px;
+  border-radius: 20px;
+
+color: #000000;
+background: linear-gradient(
+    90deg,
+    rgb(213, 244, 253) 0%,
+    rgb(141, 228, 255) 50%,
+    rgb(108, 221, 255) 100%
+  );
+}
+header h1 {
+  padding-bottom: 30px;
+  font-size: 30px;
+ color: rgb(0, 11, 158);
+  
+}
+header p {
+  padding-bottom: 40px;
+  font-size: 18px;
+}
+
+form label {
+  display: block;
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+.input-padrao {
+  display: block;
+  margin-bottom: 20px;
+  background: rgb(243, 243, 243);
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  font-family: "Baloo Bhaijaan 2", cursive, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+
+fieldset {
+  border: none;
+  font-size: 18px;
+  
+}
+
+fieldset select {
+  width: 150px;
+  background: rgb(0, 5, 7);
+  color: white;
+  font-family: "Baloo Bhaijaan 2", cursive, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin: 5px 0 20px;
+  padding: 5px 20px 10px 2px;
+}
+
+.passo {
+  display: none;
+}
+.passo input {
+  width: 150px;
+  background: rgb(107, 201, 255);
+  color: white;
+  font-family: "Baloo Bhaijaan 2", cursive, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 5px 0 20px;
+  padding: 10px 0px 10px 20px;
+}
+.but {
+  display: block;
+  margin: 3% 0;
+  padding: 20px;
+  border: none;
+  background: #06c5ff;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  border-radius: 10px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  background: rgb(83, 148, 173);
+  color: rgb(255, 247, 247);
+  font-size: 14px;
+  padding: 25px;
+  text-align: center;
+
+}
+#git{
+  height: auto;
+  width: auto;
+  border-radius: 50%;
+max-width: 400px;
+max-height: 200px;
+
+}
+
+@media (max-width: 770px) {
+  .corpo-bg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .input-padrao {
+    width: 100%;
+    height: 100%;
+  }
+}

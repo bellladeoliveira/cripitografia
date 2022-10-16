@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Projeto {De}Codificando</title>
+  </head>
+
+  <body>
+           <center>
+    <div class="corpo-bg">
+      <header>
+        <h1>{De}Codificando</h1>
+        
+      </header>
+      <main>
+        <form>
+          <label for="mensagem">Digite aqui a sua mensagem:</label>
+          <textarea
+            cols="70"
+            rows="6"
+            id="mensagem"
+            class="input-padrao"
+            required
+          ></textarea>
+
+          <fieldset>
+            <legend>Escolha um método de codificação:</legend>
+            <select id="selecao">
+              <option value="selecione">Selecione</option>
+              <option value="cesar">Cifra de César</option>
+              <option value="bs64">Base64</option>
+            </select>
+
+            <div class="passo">
+              <label for="passo"> Escolha o incremento:</label>
+              <input
+                type="number"
+                name="passo"
+                min="1"
+                max="25"
+                id="escolha-passo"
+                checked
+              />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <label for="radio-codificar"
+              ><input
+                type="radio"
+                value="codificar"
+                name="code"
+                id="radio-codificar"
+                checked
+              />Codificar</label
+            >
+
+            <label for="radio-decodificar"
+              ><input
+                type="radio"
+                value="decodificar"
+                name="code"
+                id="radio-decodificar"
+              />Decodificar</label
+            >
+          </fieldset>
+          <button class="but">Codificar Mensagem!</button>
+
+          <label for="Mensagem">Resultado:</label>
+          <textarea
+            cols="70"
+            rows="5"
+            id="mensagemFinal"
+            class="input-padrao"
+          ></textarea>
+        </form>
+      </main>
+    </div>  
+    </center>
+    <footer>
+ <div class="git">
+  <a href="https://github.com/bellladeoliveira/isa.git"></a>
+  <img src="./img/download.png" alt="git" width="50px" height="50px" >
+  <p>https://github.com/bellladeoliveira/isa.git"</h3>
+  </div>
+ 
+      <p>© Copyright {De}Codificando / Criado por: Isabelle oliveira </p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
